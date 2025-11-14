@@ -18,4 +18,6 @@
     # Regularly monitor your jobs and terminate any that are no longer needed.
     # Clean up temporary files and data after job completion to free up space.
 
+# which python
+# using uv as the environment would be better
 /home/g/phd/shb/miniconda3/bin/python huggingface_demo.py
