@@ -20,4 +20,4 @@
 #SBATCH --mem=96G                     # memory to use
 #SBATCH --time=24:00:00               # running time (HH:MM:SS)
 
-python huggingface_demo.py
+/home/g/phd/shb/miniconda3/bin/python huggingface_demo.py
