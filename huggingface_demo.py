@@ -9,7 +9,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-prompts = [f"Give me a short introduction to the number {i}." for i in range(100)]{}
+prompts = [f"Give me a short introduction to the number {i}." for i in range(100)]
 
 for prompt in prompts:
     messages = [
