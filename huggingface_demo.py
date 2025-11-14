@@ -9,9 +9,9 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-prompt = "Give me a short introduction to large language model."
+prompt = "Give me a short introduction to Brandeis University."
 messages = [
-    {"role": "system", "content": "You are a helpful assistant."},
+    {"role": "system", "content": "You are a helpful story teller."},
     {"role": "user", "content": prompt}
 ]
 text = tokenizer.apply_chat_template(
