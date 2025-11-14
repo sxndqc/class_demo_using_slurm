@@ -1,2 +1,2 @@
-# class_demo_using_slurm
+# A Demo for Using Slurm
 A demo for using slurm
