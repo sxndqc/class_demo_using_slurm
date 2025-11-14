@@ -9,11 +9,11 @@
 #SBATCH --time=24:00:00               # running time (HH:MM:SS), you can ask for the maximum time but normally your script should finish in 10 hours.
 
 # Step 1: login to the cluster: ask for permission to add your name to user group (SHA256 key)
-# Step 2: sync your files to the cluster
-# Step 3: try to run your job with interactive pty for debugging
-# Step 4: submit your job to handover
-# Step 5: Use /data/$USER_NAME to store your model (which is fine for this class)
-# Step 6: Etiquette for using shared cluster resources:
+# Step 2: sync your files from local machine or git remote to the cluster
+# Step 3: run your code on ```srun -w student-gpu-001 --pty bash``` for debugging using small data
+# Step 4: submit your job with full data, wait for 5 minutes to see it runs normally using ```squeue```, and go to bed
+# Step 5: collect your results from "logs/" after waking up
+# Etiquette for using shared cluster resources:
     # Be mindful of resource usage and avoid monopolizing resources.
     # Regularly monitor your jobs and terminate any that are no longer needed.
     # Clean up temporary files and data after job completion to free up space.
