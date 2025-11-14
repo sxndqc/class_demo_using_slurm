@@ -20,4 +20,4 @@
 #SBATCH --mem=96G                     # memory to use
 #SBATCH --time=24:00:00               # running time (HH:MM:SS)
 
-python class_demo.py
+python huggingface_demo.py
